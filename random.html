@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Roulette</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Shopping Roulette</h1>
+        <label for="store-select">Choose a Store:</label>
+        <select id="store-select">
+            <option value="">-- Select a Store --</option>
+            <option value="lego-store">Lego Store</option>
+            <option value="walmart">Walmart</option>
+            <option value="target">Target</option>
+            <option value="car-dealership">Car Dealership</option>
+            <option value="best-buy">Best Buy</option>
+            <option value="bricks-and-minifigs">Bricks and Minifigs</option>
+            <option value="family-mart">Family Mart</option>
+            <option value="seven-eleven">7-Eleven</option>
+        </select>
+
+        <!-- New Car Brand Selection Div -->
+        <div id="car-brand-selection" style="display: none;">
+            <label for="car-brand-select">Choose a Car Brand:</label>
+            <select id="car-brand-select">
+                <!-- Options will be populated by JavaScript -->
+            </select>
+        </div>
+
+        <button id="get-recommendation-btn">Get My Item!</button>
+
+        <div id="loading-indicator">Thinking...</div>
+        <div id="recommendation-output">
+            Your recommended item will appear here!
+        </div>
+    </div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>

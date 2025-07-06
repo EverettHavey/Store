@@ -1,0 +1,117 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f0f4f8; /* Light blue-gray background */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Aligns content to the top */
+    min-height: 100vh;
+    margin: 0;
+    padding: 40px 20px; /* Increased top padding to move content down */
+    box-sizing: border-box;
+}
+.container {
+    background-color: #ffffff;
+    border-radius: 1.5rem; /* More rounded corners */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    padding: 2.5rem; /* Increased padding */
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #e2e8f0; /* Subtle border */
+}
+h1 {
+    color: #2c5282; /* Darker blue for heading */
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem; /* Larger heading */
+    font-weight: 700;
+}
+label {
+    display: block;
+    margin-bottom: 0.75rem;
+    color: #4a5568; /* Gray for labels */
+    font-size: 1.125rem; /* Larger label font */
+    font-weight: 600;
+}
+select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #cbd5e0; /* Light gray border */
+    border-radius: 0.75rem; /* Rounded select */
+    background-color: #f7fafc; /* Lighter background for select */
+    font-size: 1rem;
+    color: #2d3748;
+    appearance: none; /* Remove default arrow */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%23A0AEC0'%3E%3Cpath fill-rule='evenodd' d='M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z' clip-rule='evenodd'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 1.5em 1.5em;
+    margin-bottom: 1.5rem; /* Keep this margin for spacing above the button */
+    cursor: pointer;
+}
+/* Button improvements */
+button {
+    background: linear-gradient(135deg, #4299e1 0%, #3182ce 100%); /* Gradient background */
+    color: white;
+    padding: 1rem 2.5rem; /* Slightly more horizontal padding */
+    border-radius: 0.75rem; /* Rounded button */
+    font-size: 1.25rem; /* Larger button text */
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transition for all properties */
+    box-shadow: 0 8px 20px rgba(66, 153, 225, 0.4); /* Enhanced button shadow */
+    border: 2px solid #5a9bd4; /* Subtle border */
+    position: relative; /* For pseudo-elements if needed */
+    overflow: hidden; /* For potential ripple effect */
+    margin-top: 2rem; /* Added margin-top to move the button down */
+}
+button:hover {
+    background: linear-gradient(135deg, #3182ce 0%, #2b6cb0 100%); /* Darker gradient on hover */
+    transform: translateY(-3px); /* More pronounced lift on hover */
+    box-shadow: 0 12px 25px rgba(66, 153, 225, 0.5); /* Larger shadow on hover */
+}
+button:active {
+    transform: translateY(0); /* Press effect */
+    box-shadow: 0 4px 10px rgba(66, 153, 225, 0.3); /* Smaller shadow when pressed */
+    background: #2b6cb0; /* Solid darker color when pressed */
+    border-color: #2b6cb0;
+}
+#recommendation-output {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background-color: #e0f2f7; /* Light cyan background for output */
+    border-radius: 1rem; /* Rounded output box */
+    border: 1px solid #a0daeb; /* Cyan border */
+    min-height: 80px; /* Ensure space even when empty */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem; /* Larger output text */
+    color: #2c5282; /* Dark blue text */
+    font-weight: 600;
+    text-align: center;
+    word-wrap: break-word; /* Ensure long text wraps */
+}
+#loading-indicator {
+    display: none; /* Hidden by default */
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #4a5568;
+}
+/* Responsive adjustments */
+@media (max-width: 640px) {
+    .container {
+        padding: 1.5rem;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    button {
+        padding: 0.75rem 1.5rem;
+        font-size: 1rem;
+        margin-top: 1.5rem; /* Adjust margin for smaller screens too */
+    }
+    #recommendation-output {
+        font-size: 1.25rem;
+        padding: 1rem;
+    }
+}
