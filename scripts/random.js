@@ -53,7 +53,21 @@ const storeItems = {
         'Hyundai': ['Hyundai Elantra SEL', 'Hyundai Tucson SEL', 'Hyundai Santa Fe SE', 'Hyundai Kona SE'],
         'Kia': ['Kia Seltos LX', 'Kia Sportage LX', 'Kia Forte LXS', 'Kia Telluride LX'],
         'Chevrolet': ['Chevrolet Equinox LT', 'Chevrolet Silverado 1500 LT', 'Chevrolet Colorado WT', 'Chevrolet Malibu LS'],
-        'Nissan': ['Nissan Rogue SV', 'Nissan Altima S', 'Nissan Sentra SV', 'Nissan Titan S']
+        'Nissan': ['Nissan Rogue SV', 'Nissan Altima S', 'Nissan Sentra SV', 'Nissan Titan S'],
+        'Lamborghini': ['Lamborghini Aventador', 'Lamborghini Huracán', 'Lamborghini Urus', 'Lamborghini Countach', 'Lamborghini Diablo'],
+        'Ferrari': ['Ferrari 488', 'Ferrari F8 Tributo', 'Ferrari Portofino', 'Ferrari SF90 Stradale', 'Ferrari Roma'],
+        'Bugatti': ['Bugatti Chiron', 'Bugatti Veyron', 'Bugatti Divo', 'Bugatti Bolide', 'Bugatti Mistral'],
+        'Porsche': ['Porsche 911', 'Porsche Taycan', 'Porsche Cayenne', 'Porsche Panamera', 'Porsche 718 Cayman'],
+        'Mercedes-Benz': ['Mercedes-Benz C-Class', 'Mercedes-Benz E-Class', 'Mercedes-Benz S-Class', 'Mercedes-Benz GLC-Class', 'Mercedes-Benz GLE-Class'],
+        'BMW': ['BMW 3 Series', 'BMW 5 Series', 'BMW X5', 'BMW 7 Series', 'BMW M3'],
+        'Audi': ['Audi A4', 'Audi A6', 'Audi Q5', 'Audi Q7', 'Audi R8'],
+        'Rolls-Royce': ['Rolls-Royce Phantom', 'Rolls-Royce Ghost', 'Rolls-Royce Cullinan', 'Rolls-Royce Spectre', 'Rolls-Royce Wraith'],
+        'Bentley': ['Bentley Continental GT', 'Bentley Bentayga', 'Bentley Flying Spur', 'Bentley Mulsanne'],
+        'Aston Martin': ['Aston Martin DB11', 'Aston Martin Vantage', 'Aston Martin DBS Superleggera', 'Aston Martin DBX', 'Aston Martin Valkyrie'],
+        'McLaren': ['McLaren 720S', 'McLaren Artura', 'McLaren 765LT', 'McLaren GT', 'McLaren Senna'],
+        'Lexus': ['Lexus LS', 'Lexus RX', 'Lexus ES', 'Lexus GX', 'Lexus LC'],
+        'Land Rover': ['Land Rover Range Rover', 'Land Rover Range Rover Sport', 'Land Rover Defender', 'Land Rover Discovery', 'Land Rover Range Rover Velar'],
+        'Maserati': ['Maserati Ghibli', 'Maserati Quattroporte', 'Maserati Levante', 'Maserati MC20', 'Maserati GranTurismo']
     },
     'best-buy': [
         'Samsung 55" 4K Smart TV',
